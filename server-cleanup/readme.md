@@ -8,7 +8,7 @@ Currently Okta ASA operates by removing inactive servers after a grace period of
 
 There are some options when it comes to being proactive to clean up the ASA GUI with regards to inactive servers;
 
-* AWS Server Discovery - This feature hooks into AWS and helps customers identify newly provisioned servers that are not yet protected by ASA and automatically removes decommisioned servers from ASA
+* AWS Server Discovery - This feature hooks into AWS and helps customers identify newly provisioned servers that are not yet protected by ASA and automatically removes decommisioned servers from ASA (https://help.okta.com/asa/en-us/Content/Topics/Adv_Server_Access/docs/aws-overview.htm)
 
 * Automation Tools - Some organisations utilize the Okta ASA API to automatically remove inactive servers from a project when the server is decommisioned. The 'Remove a Server from a Project' is available here: (https://developer.okta.com/docs/reference/api/asa/projects/#remove-a-server-from-a-project) 
 
