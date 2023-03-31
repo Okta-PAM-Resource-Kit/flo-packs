@@ -26,5 +26,18 @@ In Okta ASA, active servers will have their 'last_seen' status updated at least 
 
 Using this information, the helper script will look for servers that have a 'last_seen' status of greater than 24 hours and then using a Custom API action card remove the server in question.
 
+# Setup
 
+* Create ASA Service Account 
+* Ensure Service Account is a member of all Projects
+* In Okta Workflows ensure you have setup a connection to your ASA Environment
+* Upload 'service-cleanup.folder' into Okta Workflows
+* Open 'Inactive Servers Cleanup'
+* Ensure that all Cards have appropriate connections
+* Save and Enable the Flo
+* Open the 'For Each' Flo
+* Ensure that all Cards have appropraite connections
+* NOTE: The default setting for the 'last_seen' value is set to 24. This Condition is within the 'If/Else' branch and can be altered if needed.
+* Save and Enable the Flo
 
+# Note: This Okta Workflows Flo Pack is not supported by Okta and needs to be fully tested before use to ensure it works as expected.
