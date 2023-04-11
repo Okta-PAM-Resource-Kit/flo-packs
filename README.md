@@ -1,1 +1,1 @@
-# Note: These Okta Workflows are not supported by Okta and needs to be fully tested before use to ensure it works as expected.
+# Note: These scripts are not supported by Okta, and no warranty is expressed or implied.  Please review and understand all scripts before using.  Use at your own risk.
