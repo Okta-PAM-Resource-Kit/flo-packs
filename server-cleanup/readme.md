@@ -1,6 +1,6 @@
 # Server Cleanup
 
-# Note: This Okta Workflows Flo Pack is not supported by Okta and needs to be fully tested before use to ensure it works as expected.
+# Note: This Okta Workflow is not supported by Okta, and no warranty is expressed or implied.  Please review and understand all scripts before using.  Use at your own risk.
 
 This Okta Workflows Flo Pack is designed to help Okta ASA customers to proactively remove servers from their environment after they have been decommisioned.
 
