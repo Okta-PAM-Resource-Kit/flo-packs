@@ -4,7 +4,7 @@
 
 This Okta Workflows Flo Pack is designed to help Okta ASA customers to proactively remove servers from their environment after they have been decommisioned.
 
-Currently Okta ASA operates by removing inactive servers after a grace period of 94 hours. For some customers this is too long.
+Currently Okta ASA operates by removing inactive servers after a grace period of 96~ hours. For some customers this is too long.
 
 There are some options when it comes to being proactive to clean up the ASA GUI with regards to inactive servers;
 
